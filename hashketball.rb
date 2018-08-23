@@ -214,7 +214,7 @@ end
 # 1 - removing the player name key from theb return of hashes
 
 
-# Function 7
+# Function 7 - BREAK DOWN INTO 2 STEPS
 
 # Step 1  - fetching the player with biggest shoe.
 # Because there's no input, don't need to declare a variable, you can just call max_by function on players and then do fetch on the group of players with biggest shoe
@@ -226,15 +226,12 @@ end
 
 
 # Step 2  - for player with biggest shoe, fetch their rebounds
-# Because there's no input, don't need to declare a variable, you can just call max_by function on players and then do fetch on the group of players with biggest shoe
-# this returns player with biggest shoe
+# in Step 1, i.e. the biggest_shoe method already returns player with biggest shoe, therefore just need to fetch rebounds on that method
+# returning number of rebounds for that player
 
 def big_shoe_rebounds
   biggest_shoe.fetch(:rebounds)
 end 
 
-# First, find the player with the largest shoe size
-# Then, return that player's number of rebounds
-# Remember to think about return values here. 
 
 
