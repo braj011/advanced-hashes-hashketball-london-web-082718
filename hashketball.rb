@@ -217,7 +217,7 @@ end
 # Step 1 
 
 def biggest_shoe
-  biggest_shoe = 
+  players. = 
 end 
 
 
