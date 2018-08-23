@@ -216,7 +216,8 @@ end
 
 # Function 7
 
-# Step 1 
+# Step 1  - fetching the player with biggest shoe.
+# Because there's no input, don't need to declare a variable, you can just call max_by function on players and then do fetch on the group of players with biggest shoe
 
 def biggest_shoe
   players.max_by { |player_shoe| player_shoe.fetch(:shoe) } 
