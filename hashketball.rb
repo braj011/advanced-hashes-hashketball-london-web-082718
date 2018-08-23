@@ -214,6 +214,13 @@ end
 
 # Function 7
 
+# Step 1 
+
+def biggest_shoe
+  biggest_shoe = 
+end 
+
+
 def big_shoe_rebounds
   
 end 
