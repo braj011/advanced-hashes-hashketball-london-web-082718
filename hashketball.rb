@@ -223,7 +223,7 @@ def biggest_shoe
 end 
 
 def big_shoe_rebounds
-  
+  biggest_shoe.fetch(:rebounds)
 end 
 
 # First, find the player with the largest shoe size
