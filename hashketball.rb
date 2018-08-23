@@ -147,8 +147,10 @@ def players
   home_players = game_hash[:home][:players]
   away_players = game_hash[:away][:players]
   total_players = home_players + away_players
-  total_players
+  total_players    
 end
+
+# WHEN players is referred to, it's iterating over the total_players 
 
 # Function 1  - referencing this shorthand method PLAYERS 
 
@@ -217,7 +219,7 @@ end
 # Step 1 
 
 def biggest_shoe
-  players.max_by { 
+  players.max_by { |player_shoe| player_shoe.fetch(:shoe) } 
 end 
 
 players.max_by {|player_shoe| player_shoe.fetch(:shoe)}
